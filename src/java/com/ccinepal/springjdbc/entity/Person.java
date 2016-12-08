@@ -11,4 +11,10 @@ package com.ccinepal.springjdbc.entity;
  */
 public class Person {
     private int id;
+    private String name;
+    public person(int id,String name)
+    {
+        this.id=id;
+       this.name=name;
+    }
 }
